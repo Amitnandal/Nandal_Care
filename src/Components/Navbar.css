@@ -1,0 +1,61 @@
+.logo{
+    width: 11rem;
+    height: 3rem;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+.design:hover > .form-control{
+    border: 3px solid rgb(115, 194, 93);
+}
+.navbar-scrolled{
+    background-color:  rgba(239,245,255, 0.98);
+    
+    box-shadow: 0 3px 10px rgba(238, 242, 234, .15);
+}
+
+.navbar{
+    transition: all ease-in-out .5s;
+}
+
+.curve{
+    font-size: 48px;
+    font-family: cursive;
+    color: lightgreen;
+    line-height: 0.9;
+}
+
+
+/* //////////////////////////////////////////////////////////////////// */
+.text-color {
+    color: #5c8236 !important;
+    font-family: Garamond;
+}
+.bg-color{
+    background-color: rgb(238 242 234);
+
+}
+.bg_color{
+    background-color: #647b4d !important;
+}
+.logo_font{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.logo_f{
+    color: #5c8236
+}
+
+.btnn{
+background-color: #5c8236 !important;
+}
+
+
+
+   
