@@ -11,16 +11,19 @@ import About from './Components/About';
 import Services from './Components/Services';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contact from './Components/Contact';
+import Fresh from './Components/Fresh';
 
 function App() {
   return (
     <BrowserRouter>
     <Navbar/>
+    
     <Routes>
-      <Route path='/Home' element={<Home/>} />
+      <Route path='' element={<Home/>} />
       <Route path='/About' element={<About/>}/>
       <Route path='/Services' element={<Services/>}/>
       <Route path='/Contact' element={<Contact/>}/>
+      <Route path='/Fresh' element={<Fresh  />}/>
     </Routes>
     
     <Footer/>

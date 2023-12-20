@@ -25,7 +25,7 @@ function Navbar() {
         <div className='container-fluid'>
         <div className="row">
         <nav className="navbar navbar-expand-lg fixed-top " ref={navScroll}>
-              <Link className="navbar-brand" to="/Home">
+              <Link className="navbar-brand" to="">
                 {/* <img src="./photo/Logo_ Camelum.png" className="logo" alt=""> */}
                  <h2 className="logo_font text-light"><span className="fs-1 logo_f"></span></h2> 
               </Link>
@@ -35,7 +35,7 @@ function Navbar() {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav m-auto ">
                   <li className="nav-item mx-3"> 
-                      <Link className="nav-link activtoxt-light " aria-current="page" to="/Home"><h4>Home</h4></Link>
+                      <Link className="nav-link activtoxt-light " aria-current="page" to=""><h4>Home</h4></Link>
                     </li>
                     <li className="nav-item mx-3">
                       <Link className="nav-link activtoxt-light  " to="/About"><h4>About Us</h4></Link>
@@ -49,9 +49,9 @@ function Navbar() {
                     <li className="nav-item mx-3">
                         <Link className="nav-link activtoxt-light  " to="/Contact"><h4>Contact Us</h4></Link>
                       </li>
-                      {/* <li className="nav-item mx-3">
-                          <Link className="nav-link activtoxt-light " to="./contact.html"><h5>login</h5></Link>
-                        </li> */}
+                      <li className="nav-item mx-3">
+                          <Link className="nav-link activtoxt-light " to="/Fresh"><h5>Fresh</h5></Link>
+                        </li>
                 </ul>
               {/* <form className="d-flex">
                   <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
